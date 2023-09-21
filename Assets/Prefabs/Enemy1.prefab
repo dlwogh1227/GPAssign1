@@ -1392,6 +1392,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1032355505339330200}
   - component: {fileID: 3178781181197152958}
+  - component: {fileID: 7009603111034559843}
   m_Layer: 7
   m_Name: Man_Pants_Mesh
   m_TagString: Untagged
@@ -1476,6 +1477,18 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.38091773, y: 0.0126212835, z: 0.000000014901161}
     m_Extent: {x: 0.5279589, y: 0.17768483, z: 0.27740592}
   m_DirtyAABB: 0
+--- !u!114 &7009603111034559843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2352815537724246772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 332b0b6266893412e91cf212f51a27f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2534476605370519616
 GameObject:
   m_ObjectHideFlags: 0
@@ -1666,6 +1679,7 @@ GameObject:
   m_Component:
   - component: {fileID: 87060650898213846}
   - component: {fileID: 5968941858500275390}
+  - component: {fileID: 623502058845603377}
   m_Layer: 7
   m_Name: Man_Pullover_Mesh
   m_TagString: Untagged
@@ -1756,6 +1770,18 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.32269263, y: 0.04611796, z: 0.0008227229}
     m_Extent: {x: 0.32765132, y: 0.22534299, z: 0.5789222}
   m_DirtyAABB: 0
+--- !u!114 &623502058845603377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2804784595231979514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 332b0b6266893412e91cf212f51a27f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2870500177832471607
 GameObject:
   m_ObjectHideFlags: 0
@@ -2445,6 +2471,9 @@ GameObject:
   - component: {fileID: 1226797711411706745}
   - component: {fileID: 6638149564484496060}
   - component: {fileID: 4492092820453486022}
+  - component: {fileID: 8960185402129401326}
+  - component: {fileID: 4598100255991600577}
+  - component: {fileID: 7761009660262367349}
   m_Layer: 7
   m_Name: Enemy1
   m_TagString: Untagged
@@ -2568,8 +2597,45 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 84
   m_CollisionDetection: 0
+--- !u!114 &8960185402129401326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5513193454851686954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 332b0b6266893412e91cf212f51a27f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4598100255991600577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5513193454851686954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dd14e8a5ff8c4ec892b92451af5a5d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amount: 0
+--- !u!114 &7761009660262367349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5513193454851686954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f03ea747200364c7f97d64fa63cac2c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6254849290199234673
 GameObject:
   m_ObjectHideFlags: 0
